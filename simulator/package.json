@@ -1,0 +1,18 @@
+{
+  "name": "emergency-responder-simulator",
+  "version": "1.0.0",
+  "description": "Simulation engine — writes sensor data to MongoDB every 10 seconds",
+  "main": "simulate.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node simulate.js",
+    "dev": "nodemon simulate.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
